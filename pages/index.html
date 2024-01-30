@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criptografia - Codificação e Decodificação de Mensagens</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="texto__content">
+        <textarea
+          placeholder="Digite seu texto aqui..."
+          name=""
+          id="input"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div class="button__container">
+          <span class="regras">**Apenas letras minúsculas e sem acento.</span>
+          <div class="button__content">
+            <button onclick="criptografar()" class="button--encrypt">
+              Criptografar
+            </button>
+            <button onclick="descriptrografar()" class="button--decrypt">
+              Descriptografar
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="resultado">
+        <h1 id="h1"></h1>
+        <p id="p"></p>
+      </div>
+    </main>
+
+    <footer class="disclaimer-premium">
+      <div class="text">
+        <p class="disclaimer-premium__title">
+          Desenvolvido por
+          <a href="https://br.linkedin.com/in/juliafclima" target="_blank"
+            >Julia Lima</a
+          ><i class="fa-brands fa-linkedin"></i>
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/70aa2830a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
