@@ -2,7 +2,7 @@
 
 ### Criptografia e Descriptografia
 
-As "chaves" de criptografia que utilizaremos são:
+As "chaves" de criptografia que utilizei são:
 
 - A letra "e" é convertida para "enter"
 - A letra "i" é convertida para "imes"
