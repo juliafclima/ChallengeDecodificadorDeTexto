@@ -10,7 +10,7 @@ As "chaves" de criptografia que utilizei são:
 - A letra "o" é convertida para "ober"
 - A letra "u" é convertida para "ufat"
 
-A aplicação deve funcionar apenas com letras minúsculas, sem a utilização de letras com acentos ou caracteres especiais. É necessário garantir a possibilidade de converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+A aplicação funciona apenas com letras minúsculas, sem a utilização de letras com acentos ou caracteres especiais. É possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
 Exemplo:
 - "gato" => "gaitober"
